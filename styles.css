@@ -1,0 +1,92 @@
+body {
+	color: black;
+	background: black;
+	font-family: "Indie Flower", cursive;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.postcard-header img {
+	width: 55px;
+	height: 55px;
+	margin-right: 20px;
+}
+
+.postcard-header h1 {
+	font-size: 26px;
+	flex-grow: 2;
+}
+
+.postcard-body {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0px;
+}
+
+.body-left {
+	width: 45%;
+}
+
+.body-left p {
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.body-right {
+	width: 45%;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.input-container p {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: grey;
+	font-size: 12px;
+	border-bottom: 1px solid grey;
+}
+
+.input-container input {
+	width: 100%;
+	border: none;
+	font-size: 12px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	font-family: "Indie Flower", cursive;
+	background-color: rgb(197, 187, 187);
+	font-size: 14px;
+	border: none;
+	margin-bottom: 40px;
+	cursor: pointer;
+	width: auto;
+}
